@@ -80,6 +80,6 @@ go <b>BIG</b> <span class="thoughts">or go home</span>
 
 比更好...
 
---- #its-in-3d x:2925 y:2325 z:-3500 rotx:10 scale:5
+--- #better x:2925 y:2325 z:-3500 rotx:10 scale:5
 
 <b>再好一点</b>
