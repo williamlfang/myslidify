@@ -13,15 +13,7 @@
         return ('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch;
     })();
 
-    /**
-     * Detects if notes are enable and the current page is opened inside an /iframe
-     * this prevents loading Remotes.io several times
-     */
-    var remotesAndIsNotes = (function(){
-      return !(window.RevealNotes && self == top);
-    })();
-
-    if(!hasTouch && !remotesAndIsNotes){
+    if(!hasTouch){
         head.ready( 'remotes.ne.min.js', function() {
             new Remotes("preview")
                 .on("swipe-left", function(e){ Reveal.right(); })

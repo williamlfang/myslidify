@@ -1,0 +1,7 @@
+base
+DBI
+RMySQL
+usethis
+devtools
+slidify
+ggplot2
