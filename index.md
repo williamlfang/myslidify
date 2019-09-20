@@ -5,7 +5,7 @@ mode : selfcontained
 framework: revealjs
 hitheme : zenburn
 revealjs:
-  theme: moon
+  theme: night
   transition: cube
   center: "true"
 url: {lib: "."}
