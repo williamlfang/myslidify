@@ -1,5 +1,5 @@
 ---
-title: Checking Reveal.js
+title: William@hicloud
 author: Ramnath Vaidyanathan
 mode : selfcontained
 framework: revealjs
