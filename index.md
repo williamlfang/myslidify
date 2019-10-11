@@ -101,5 +101,5 @@ ChinaFutures:
 
 ChinaStocks:
     ☐ Tora 系统登录, toraGateway 封装 @fl
-    ☐ 完成 xtp 大新策略开发 @lj
+    ☐ 完成 xtp 打新策略开发 @lj
 ```
