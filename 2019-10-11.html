@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>William@hicloud</title>
+  <meta name="description" content="">
+  <meta name="author" content="Ramnath Vaidyanathan">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="stylesheet" href="./frameworks/revealjs/css/reveal.min.css">
+  <link rel="stylesheet" href="./frameworks/revealjs/css/theme/night.css" id="theme">
+  <link rel="stylesheet" href="./highlighters/highlight.js/css/zenburn.css" id="theme">
+  <!--[if lt IE 9]>
+  <script src="lib/js/html5shiv.js"></script>
+  <![endif]-->  <link rel="stylesheet" href = "assets/css/slidify-reveal.css">
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section class='' data-state='' id='slide-1'>
+  <h1>一周工作汇报</h1>
+  <h4>William Fang</h4>
+
+</section>
+<section>
+   <section class='' data-state='indigo'>
+    <h2>汉云技术体系</h2>
+    <ul>
+<li>交易系统
+
+<ul>
+<li>期货交易：CTA日内 </li>
+<li>股票交易：5日持仓</li>
+</ul></li>
+<li>数据库
+
+<ul>
+<li>实盘行情数据</li>
+<li>Lv2 数据</li>
+<li>外部数据支持: 聚宽</li>
+</ul></li>
+<li>服务器自动化运维
+
+<ul>
+<li>运行监控</li>
+<li>风控管理</li>
+</ul></li>
+</ul>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state='blue'>
+    <pre><code>ChinaFutures:
+    ✔ 新的 twap 算法交易 @fl @cancelled (2019-09-27 13:58)
+      🌘-&gt; 系统迁移到 python3k
+    ✔ 交易系统升级到 python3k @fl @done (2019-09-27 13:59)
+        ✔ InstrumentInfo @done (2019-09-27 13:59)
+        ✔ CommissionRate @done (2019-09-27 13:59)
+        ✔ TickData @done (2019-09-27 13:59)
+        ☐ 策略模板
+    ☐ CTP-c++ CodeReview @lzx @fl
+</code></pre>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state='brown'>
+    <pre><code>ChinaStocks:
+    ✔ 中泰服务器升级，需要更改连接 IP @fl @done (2019-09-23 15:29)
+    ✔ 聚宽数据的每日更新 @lj @done (2019-09-25 13:27)
+    ✘ 50ETF期权数据获取与入库 @cancelled (2019-09-25 14:24)
+    ✔ Pybind11 扩展
+        ✔ ctp
+        ✔ xtp
+        ✘ tora
+    中泰 XTP:
+        ✔ 使用 api 执行新股申购 @fl @done (2019-09-27 13:55)
+        ✘ 50etf期权程序化交易接口 @fl @pc @cancelled (2019-09-25 14:22)
+           🔕 监管要求才能使用，老备案可以，新备案暂停
+        ✔ python3k xtpGateway 的类封装 @fl @done (2019-09-25 13:27)
+    华鑫奇点:
+        ☐ 测试模拟账户的登录、下单等基本功能
+        ☐ 封装 python 接口
+        ✔ 开户，商讨合作细节
+</code></pre>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state='orange'>
+    <pre><code>DirtyWork:
+    ✔ 使用阿里云与本地服务器保持连接，
+       用于检查是否断电断网，并发送邮件预警（1hour） @fl @done (2019-09-23 10:00)
+    ✔ 采购京东云，实现内网穿透，方便从外部访问本地服务器
+</code></pre>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+</section>
+<section>
+   <section class='' data-state='red'>
+    <h2>下周工作计划</h2>
+    
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state='orange'>
+    <pre><code>ChinaFutures:
+    ☐ 新的 twap 算法交易 @fl @lzx
+
+ChinaStocks:
+    ☐ Tora 系统登录, toraGateway 封装 @fl
+    ☐ 完成 xtp 打新策略开发 @lj
+</code></pre>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+</section>
+    </div>
+  </div>
+</body>
+  <script src="./frameworks/revealjs/lib/js/head.min.js"></script>
+  <script src="./frameworks/revealjs/js/reveal.min.js"></script>
+  <script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    theme: Reveal.getQueryHash().theme || 'night', 
+    transition: Reveal.getQueryHash().transition || 'concave', 
+    dependencies: [
+    // Cross-browser shim that fully implements classList -
+    // https://github.com/eligrey/classList.js/
+      { src: './frameworks/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList;}},
+      // Zoom in and out with Alt+click
+      { src: './frameworks/revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Speaker notes
+      { src: './frameworks/revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Remote control your reveal.js presentation using a touch device
+      //{ src: './frameworks/revealjs/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+      ]
+  });
+  </script>  <!-- LOAD HIGHLIGHTER JS FILES -->
+<script src="./highlighters/highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+ 
+
+</html>
