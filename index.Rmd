@@ -35,6 +35,6 @@ navbar:
 --- &vertical
 
 - 确定分钟策略的交易框架 
-- 技术文档
+- 技术文档: https://hicloud.gitbook.io/hibook/
 - 技术交流
 - 外部交流
