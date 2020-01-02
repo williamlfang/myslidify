@@ -1,39 +1,45 @@
 ---
-title: Checking Reveal.js
-author: Ramnath Vaidyanathan
+title: 新时代，新生代
+author: 方 莲
 mode : selfcontained
 framework: revealjs
 hitheme : zenburn
 revealjs:
-  theme: solarized
+  theme: sky
   transition: cube
   center: "true"
 url: {lib: "."}
 bootstrap:
   theme: amelia
 navbar:
-  title: Slidify
-  items: 
-    - {item: Home, href: index,  icon: home}
-    - {item: "Start", href: start, icon: signin}
-    - {item: Author, href: about, icon: pencil}
-    - {item: Style, href: style, icon: hand-right, class: dropdown, 
+  title: william
+  items:
+    - {item: 汉云投资, href: index,  icon: home}
+    - {item: 2020, href: about, icon: pencil}
+    - {item: 年会, href: style, icon: hand-right, class: dropdown,
         dropdown: true, menu: [
-         {item: io2012, href: 'samples/intro'},
-         {item: deck.js, href: 'samples/deck.js'},
-         {item: shower, href: 'samples/shower'},
-         {item: landslide, href: 'samples/landslide'}
+         # {item: io2012, href: 'samples/intro'},
+         # {item: deck.js, href: 'samples/deck.js'},
+         # {item: shower, href: 'samples/shower'},
+         # {item: landslide, href: 'samples/landslide'}
         ]
       }
-    - {item: Customize, href: customize, icon: gift}
-    - {item: Extend, href: extend, icon: cogs}
-    - {item: Publish, href: publish, icon: github}
+    # - {item: Customize, href: customize, icon: gift}
+    # - {item: Extend, href: extend, icon: cogs}
+    # - {item: Publish, href: publish, icon: github}
 ---
 
-# Reveal.js
-### HTML PRESENTATIONS MADE EASY
+<section>
+---
+## 汉云投资 2020 年会
 
-<small> Created by [Hakim El Hattab](http://hakim.se) / [@hakimel](http://twitter.com/hakimel) </small>
+---
+## 新时代，新生代
+</section>
+
+<small> 
+  方 莲 
+</small>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 

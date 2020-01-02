@@ -3,3 +3,6 @@ DBI
 RMySQL
 slidify
 ggplot2
+usethis
+devtools
+xaringanthemer
