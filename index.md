@@ -27,16 +27,16 @@ navbar:
     # - {item: Customize, href: customize, icon: gift}
     # - {item: Extend, href: extend, icon: cogs}
     # - {item: Publish, href: publish, icon: github}
+# slidify::slidify( "index.Rmd" )
+# slidify::publish(user = 'williamlfang', repo = 'myslidify')
 ---
 
 <section>
 
 ---
-
-## 汉云投资 2020 年会
+## 汉云投资 <span style="color:red;font-weight:bold">2020 年会</font>
 
 ---
-
 ## 团圆会
 
 </section>
