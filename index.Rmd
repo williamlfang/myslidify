@@ -207,3 +207,9 @@ navbar:
 
 ## 专注
 
+
+
+<script>
+$('ul.incremental li').addClass('fragment')
+</script>
+
