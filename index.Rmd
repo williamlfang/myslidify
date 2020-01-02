@@ -46,28 +46,28 @@ navbar:
 
 [方 莲](https://williamlfang.github.io/) 
 
-
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 *** =pnotes
 
-Some notes on the first slide
+开始暖场
 
 ---
 
-## Heads Up
+## 变与不变
 
-reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with support for CSS 3D transforms to see it in its full glory.
+其实每次年会，我都会好好准备。
 
 <section>
 
 ---
-
-## Slide 1
+### 金融[]
 
 ---
+### 金融狗
 
-## Slide 2
+---
+### 程序猿
 
 </section>
 
