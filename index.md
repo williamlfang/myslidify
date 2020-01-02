@@ -31,12 +31,16 @@ navbar:
 # slidify::publish(user = 'williamlfang', repo = 'myslidify')
 ---
 
+--- 
+
 <section>
 
 ---
+
 ## 汉云投资 <span style="color:red;font-weight:bold">2020 年会</font>
 
 ---
+
 ## 团圆会
 
 </section>
@@ -46,332 +50,160 @@ navbar:
 
 [方 莲](https://williamlfang.github.io/) 
 
-
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 *** =pnotes
 
-Some notes on the first slide
+开始暖场
+
 
 ---
 
-## Heads Up
+.fragment 每次年会，我都会好好准备
 
-reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with support for CSS 3D transforms to see it in its full glory.
+.fragment 成为了我的一道阅兵式
+
+.fragment 总结过去的经验，规划未来的战略，间或调侃一下自己
+
+
+---
+</br>
+## 变化与不变
 
 <section>
 
 ---
 
-## Slide 1
+友：你变了
 
 ---
 
-## Slide 2
+我：变秃了
+
+---
+友：不，你变老了
+
+--- 
+
+---
+
+「金融狗」
+
+---
+「程序猿」
 
 </section>
 
---- &vertical
-
-## Vertical Slides
-
-Slides can be nested inside of other slides, try pressing <a href="#" class="navigate-down">down</a>
+---
 
 <a href="#" class="image navigate-down">
-  <img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-</a>
-
-***
-
-## Basement Level 1
-
-Press down or up to navigate.
-
-***
-
-## Basement Level 2
-
-Cornify
-
-<a class="test" href="http://cornify.com">
- <img width="280" height="326" src="https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif" alt="Unicorn">
-</a>
-
-***
-
-## Basement Level 3
-
-That's it, time to go back up.
-
-<a href="#/2" class="image">
-  <img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
+  <img width="600" height="680" src="./imgs/face.jpg" alt="Down arrow">
 </a>
 
 --- &vertical
 
-## Vertical Slides
+## 知乎
 
-Slides can be nested inside of other slides, try pressing <a href="#" class="navigate-down">down</a>
-
-<a href="#" class="image navigate-down">
-  <img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-</a>
-
-***
-
-## Basement Level 1
-
-Press down or up to navigate.
-
-***
-
-## Basement Level 2
-
-Cornify
-
----
-
-## Point of View
-
-Press ESC to enter the slide overview. Hold down alt and click on any element to zoom in on it using [zoom.js](http://lab.hakim.se/zoom-js). Alt + click anywhere to zoom back out.
-
----
-
-## RVL.IO
-
-If you don't like writing slides in HTML you can use the online editor [rvl.io](http://rvl.io).
-
----
-
-## Works in Mobile Safari
-
-Try it out! You can swipe through the slides and pinch your way to the overview.
-
----
-
-## Marvolous Unordered List
-
-- No order here
-- Or here
-- Or here
-- Or here
-
----
-
-## Fantastic Ordered List
-
-1. One is smaller than...
-2. Two is smaller than...
-3. Three!
-
---- #transitions
-
-## TRANSITION STYLES
-You can select from different transitions, like: 
-
-[Cube](?transition=cube#/transitions) - [Page](?transition=page#/transitions) - [Concave](?transition=concave#/transitions) - [Zoom](?transition=zoom#/transitions) - [Linear](?transition=linear#/transitions) - [Fade](?transition=fade#/transitions) - [None](?transition=none#/transitions) - [Default](?transition=default#/transitions)
-
---- #themes
-
-## Themes
-
-Reveal.js comes with a few themes built in: 
-
-[Sky](?theme=sky#/themes) - [Beige](?theme=beige#/themes) - [Simple](?theme=simple#/themes) - [Serif](?theme=serif#/themes) - [Night](?theme=night#/themes) - [Default](?theme=default#/themes) - [Solarized](?theme=solarized#/themes) - [Moon](?theme=moon#/themes)
-
-<small>* Theme demos are loaded after the presentation which leads to flicker. In production you should load your theme in the `<head>` using a `<link>`.</small>
-
---- ds:alert &vertical
-
-## Global State
-Set `data-state="something"` on a slide and "something" will be added as a class to the document element when the slide is open. This lets you apply broader style changes, like switching the background.
-
-<a href="#" class="image navigate-down">
-  <img width="178" height="238" 
-    src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-</a>
+> 「代码写多了容易少什么？」
 
 *** ds:blackout
 
-## Blackout
+相信大家的第一反应是...
 
-<a href="#" class="image navigate-down">
-  <img width="178" height="238" 
-    src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-</a>
+.fragment ... 「少头发」 ...
 
-*** ds:soothe
-
-## Soothe
-
-<a href="#" class="image navigate-next">
-  <img width="178" height="238" alt="Up arrow" style="-webkit-transform: rotate(-90deg);"
-    src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" >
-</a>
-
---- ds:red &vertical
-
-## Custom Soothe Styles
-
-*** ds:orange
-
-## Orange
-
-*** ds:yellow
-
-## Yellow
-
-*** ds:green
-
-## Green
-
-*** ds:blue
-
-## Blue
+> - 好嗨哟
+> - <span style="color:yellow;font-weight:bold">都还在</font>
 
 *** ds:indigo
 
-## Indigo
+但是，我觉得还有一样东西也是越来越少。
 
-*** ds:violet
+.fragment <a href="#" class="image navigate-down">
+  <img width="600" height="600" src="./imgs/code.jpeg" alt="Down arrow">
+</a>
 
-## Violet
+*** ds:indigo
 
-*** ds:brown
+.fragment 这句话应该如何翻译呢？
 
-## Brown
+> - 废话少说，放<span style="color:yellow;font-weight:bold">「码」</span>过来
+> - 瞅啥瞅，快滚去写代<span style="color:yellow;font-weight:bold">「码」</span>
 
----
+</br>
 
-## Custom Events
+.fragment 所以，尴尬就来了？
 
-Additionally custom events can be triggered on a per slide basis by binding to the data-state name.
-
-```
-Reveal.addEventListener( 'customevent', function() {
-  console.log( '"customevent" has fired' );
-} );
-```
-
----
-
-## Clever Quotes
-
-These guys come in two forms, inline:  <q>The nice thing about standards is that there are so many to choose from and block:</q>
-
-> For years there has been a theory that millions of monkeys typing at random on millions of typewriters would reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.
-
----
-
-## Pretty Code
-
-```
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i < len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) ) {
-        node.className += ' roll';
-      }
-    };
-  }
-}
-```
-
-Courtesy of [highlight.js](http://softwaremaniacs.org/soft/highlight/en/description/)
-
----
-
-## Intergalactic Interconnections
-
-You can link between slides internally, [like this](#/2/3).
-
----
-
-## Fragmented Views
-
-Hit the next arrow...
-
-.fragment ... to step through ...
-
-> - any type
-> - of view
-> - __fragments__
-
----
-
-## Take a Moment
-
-Press b or period on your keyboard to enter the 'paused' mode. This mode is helpful when you want to take distracting slides off the screen during a presentation.
+> - 如果我继续说，那我一定不是一个合格的码农
+> - 如果我不说，则无法证明自己就是那个码农
 
 
----
 
-## Incremental Paragraphs
+--- ds:brown &vertical
 
-.fragment This is paragraph 1 and should appear on first click.
-
-.fragment This is paragraph 2 and should appear on second click.
-
-.small [Back to the Beginning](#/0)
+## 感谢的话
 
 
----
+*** ds:blackout
+## 数字的话
 
-## Title
+*** ds:blackout
+## 3
 
-This is a slide
+*** ds:blackout
+## 2
 
-- point 1
-- point 2
-- point 3
+*** ds:blackout
+## 1
 
----
+*** ds
 
-## Incremental Reveal
+## 3年工作，5年的开发经验
 
-These points should be animated
+.fragment 我来汉云刚好是3整年，写了点代码，做了点事情。
 
-> - Point 1
-> - .highlight-red Point 2
-> - .grow Point 3
+> - 一套程序化交易系统
+> - 一些爬坑的经验
+> - 一门需要实时更新的手艺
 
-<script>
-$('ul.incremental li').addClass('fragment')
-</script>
+*** ds
+## 积累经验，仍需继续前进
+
+.fragment 昨日不可追，我们只有向前，才能保持不后退</br>
+
+.fragment 量化市场就像当年的美苏争霸时期，只有让自己变得强大 </br>
+
+.fragment 才能不被打垮
+
+> - 技术上继续精进
+> - 设备上需要投入
+
+*** ds
+## 数据+策略+交易
+
+> - 自建数据库：期货+股票
+> - 多市场+多品种+多周期
+> - 优化算法
+
+*** ds:blue
+
+## 新时代，新生代
+
+.fragment 我们告别了一个时代，我们也迎来了一个时代。
+
+> - 监管逐步放开交易限制
+> - 资金逐步促使优胜劣汰
+> - 量化逐步成为投资主流
 
 
----
+*** ds:blue
 
-## Code with slide
+## 期货+股票
+.fragment 我们在期货、股票市场均有布局
 
+.fragment 我们也希望能够实现两条腿并行前进
 
-```r
-library(ggplot2)
-qplot(wt, mpg, data = mtcars)
-```
+*** ds:yello
 
-![plot of chunk unnamed-chunk-3](assets/fig/unnamed-chunk-3-1.png)
-
---- &vertical ds:soothe
-
-## Vertical Slides
-
-The next set of slides will be vertical slides.
-
-***
-
-## Slide 1
-
-This is slide 1
-
-***
-
-## Slide 2
-
-<iframe src='http://www.statdistributions.com' width = '960px' height = '600px'></iframe>
+## 专注
 
