@@ -187,7 +187,7 @@ navbar:
 
 *** ds:blue
 
-## 新时代，新生代
+## 20:新时代，新生代
 
 .fragment 我们告别了一个时代，我们也迎来了一个时代。
 
@@ -207,6 +207,13 @@ navbar:
 
 ## 专注
 
+*** 
+
+.fragment 胸有大志，脚踏实地
+
+<a href="#" class="image navigate-down">
+  <img width="680" height="600" src="./imgs/work-hard-dream-big.jpg" alt="Down arrow">
+</a>
 
 
 <script>
