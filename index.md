@@ -37,7 +37,7 @@ navbar:
 
 ---
 
-## 汉云投资 <span style="color:red;font-weight:bold">2020 年会</font>
+## 汉云投资 <span style="color:red;font-weight:bold">2020 年会</span>
 
 ---
 
@@ -142,6 +142,11 @@ navbar:
 --- ds:brown &vertical
 
 ## 感谢的话
+
+
+*** ds:pink
+# <span style="color:red;font-weight:bold">感谢你</span>
+.fragment <span style="color:yellow;font-weight:bold">小伙伴们</span>
 
 
 *** ds:blackout
